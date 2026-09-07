@@ -1,0 +1,76 @@
+<launch>
+
+  <arg name="camera_index" default="0"/>
+
+  <arg
+    name="model"
+    default="yolov8m-worldv2.pt"
+  />
+
+  <arg
+    name="show_window"
+    default="true"
+  />
+
+  <node
+    pkg="handover_safety"
+    type="open_vocab_vision_node.py"
+    name="box_vision_node"
+    output="screen">
+
+    <param
+      name="camera_index"
+      value="$(arg camera_index)"
+    />
+
+    <param
+      name="model"
+      value="$(arg model)"
+    />
+
+    <param
+      name="show_window"
+      value="$(arg show_window)"
+    />
+
+    <!-- YOLO-World inference -->
+    <param
+      name="image_size"
+      value="960"
+    />
+
+    <param
+      name="inference_hz"
+      value="2.0"
+    />
+
+    <param
+      name="model_conf_floor"
+      value="0.05"
+    />
+
+    <param
+      name="box_confidence"
+      value="0.35"
+    />
+
+    <param
+      name="min_area_ratio"
+      value="0.002"
+    />
+
+    <!-- Stable confirmation -->
+    <param
+      name="stable_required"
+      value="5"
+    />
+
+    <!-- Full frame used initially -->
+    <param name="roi_x_min" value="0.0"/>
+    <param name="roi_x_max" value="1.0"/>
+    <param name="roi_y_min" value="0.0"/>
+    <param name="roi_y_max" value="1.0"/>
+
+  </node>
+
+</launch>
