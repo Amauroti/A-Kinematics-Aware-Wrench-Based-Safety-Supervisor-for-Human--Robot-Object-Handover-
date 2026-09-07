@@ -1,0 +1,23 @@
+FORMAL EVALUATION V2 - DESCRIPTIVE SUMMARY
+==========================================
+
+Evaluation design: 7 scenarios x 2 methods x 1 retained trial = 14 controlled trials.
+
+Baseline:
+TP=2, TN=2, FP=3, FN=0
+Scenario-level decision accuracy=57.1%
+Balanced accuracy=0.700
+Mean trial decision processing=0.647 ms
+
+Proposed:
+TP=2, TN=5, FP=0, FN=0
+Scenario-level decision accuracy=100.0%
+Balanced accuracy=1.000
+Mean trial decision processing=0.661 ms
+
+Key observed distinction:
+Baseline produced false-positive releases during side_push, reverse_pull and out_of_zone_pull.
+The proposed supervisor rejected all three of these unsafe interaction scenarios.
+
+Important limitation:
+One retained trial was used per method-scenario condition. The results are therefore descriptive controlled-scenario observations and should not be presented as statistically significant population-level estimates.

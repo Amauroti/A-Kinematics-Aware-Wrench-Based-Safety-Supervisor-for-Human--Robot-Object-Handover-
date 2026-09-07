@@ -1,0 +1,3 @@
+method,trials,TP,TN,FP,FN,correct_decisions,accuracy,precision,recall_sensitivity,specificity,f1_score,balanced_accuracy,mean_trial_decision_processing_ms,mean_observed_release_latency_ms
+baseline,7,2,2,3,0,4,0.5714285714285714,0.4,1.0,0.4,0.5714285714285715,0.7,0.6473274567067795,1089.7843837738037
+proposed,7,2,5,0,0,7,1.0,1.0,1.0,1.0,1.0,1.0,0.6609270442830738,784.3846082687378
