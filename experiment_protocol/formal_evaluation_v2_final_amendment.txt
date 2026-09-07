@@ -1,0 +1,64 @@
+FORMAL EVALUATION V2 - FINAL DATASET AMENDMENT
+================================================
+
+Primary evaluation design
+-------------------------
+7 controlled scenarios
+x 2 supervisor methods
+x 1 protocol-compliant trial
+= 14 primary formal trials
+
+The completed controlled trials are used as the final evaluation dataset.
+No repeated trials are claimed.
+
+Primary endpoint
+----------------
+Correct release decision:
+TP / TN / FP / FN
+
+Trial inclusion rule
+--------------------
+One protocol-compliant trial is retained for each method-scenario condition.
+
+Trials containing documented protocol deviations are retained in the raw
+dataset but excluded from the primary comparison irrespective of whether
+their final outcome favours the baseline or proposed method.
+
+Formal scenarios
+----------------
+no_interaction
+weak_pull
+correct_pull
+strong_pull
+side_push
+reverse_pull
+out_of_zone_pull
+
+accidental_contact was removed because manually generating a repeatable
+short-duration transient contact was not sufficiently reproducible.
+
+Statistical interpretation
+--------------------------
+The primary results are descriptive controlled-scenario results.
+
+Because n=1 per method-scenario condition, the evaluation does NOT claim:
+- statistical significance between methods;
+- confidence intervals based on repeated trials;
+- trial-to-trial standard deviation;
+- population-level success probabilities.
+
+The evaluation may report:
+- confusion matrices;
+- descriptive decision accuracy;
+- observed TP/TN/FP/FN outcomes;
+- recorded release latency;
+- recorded force and alignment profiles;
+- computational processing time;
+- qualitative and time-series failure-case analysis.
+
+Traceability
+------------
+Original trial IDs and original files are retained unchanged.
+The PILOT01 text contained in historical filenames is not altered.
+formal_trial_selection_v2.csv defines which trials comprise the final
+evaluation dataset.

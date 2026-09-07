@@ -1,0 +1,8 @@
+Frozen at: 2026-08-10T10:40:02+01:00
+Frozen package:
+/home/xinhao/handover_evaluation/frozen_system/handover_safety_formal_v2_20260810_103928
+
+Protocol:
+/home/xinhao/handover_evaluation/protocols/formal_evaluation_v2.txt
+
+Pilot data are excluded from formal aggregate statistics.
