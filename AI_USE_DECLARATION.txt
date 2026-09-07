@@ -1,0 +1,17 @@
+AI USE DECLARATION
+==================
+
+Generative AI tools were used during this project as supporting tools
+for code debugging, code review, and language assistance.
+
+All generated or suggested technical material used in the project was
+reviewed, tested, adapted, and integrated by the student.
+
+The student was responsible for the final system architecture,
+robot configuration and operation, experimental design, physical
+execution of the experiments, data collection, validation of system
+behaviour, selection of the final evaluation dataset, interpretation
+of the experimental results, and final submitted work.
+
+This declaration should be read together with any formal AI-use
+declaration required by the dissertation unit or university.

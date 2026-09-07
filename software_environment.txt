@@ -1,0 +1,40 @@
+FINAL PROJECT 189 - SOFTWARE ENVIRONMENT
+========================================
+
+Captured:
+2026-08-10T11:44:09+01:00
+
+Operating system:
+Ubuntu 20.04.6 LTS
+
+Kernel:
+Linux xinhao-ROG-Strix-G513QM-G513QM 5.15.0-139-generic #149~20.04.1-Ubuntu SMP Wed Apr 16 08:29:56 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+Python:
+Python 3.8.10
+
+ROS distribution:
+noetic
+
+ROS version:
+<unversioned>
+
+Franka packages:
+ros-noetic-franka-control	0.10.1-1focal.20250521.012537
+ros-noetic-franka-description	0.10.1-1focal.20250519.234307
+ros-noetic-franka-example-controllers	0.10.1-1focal.20250521.013021
+ros-noetic-franka-gazebo	0.10.1-1focal.20250521.013929
+ros-noetic-franka-gripper	0.10.1-1focal.20250520.000301
+ros-noetic-franka-hw	0.10.1-1focal.20250520.000357
+ros-noetic-franka-msgs	0.10.1-1focal.20250426.013424
+ros-noetic-franka-ros	0.10.1-1focal.20250521.015020
+ros-noetic-franka-visualization	0.10.1-1focal.20250519.235403
+
+Selected Python packages:
+numpy: 1.17.4
+PyYAML: 5.3.1
+matplotlib: 3.1.2
+sounddevice: not found via Python package metadata
+vosk: not found via Python package metadata
+ultralytics: not found via Python package metadata
+rospkg: 1.6.0
